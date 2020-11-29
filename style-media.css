@@ -1,0 +1,66 @@
+@media screen and (max-width: 650px) {
+  /* Configuração geral */
+  .header-container,
+  .main-container,
+  .video,
+  .mapa,
+  .banner-img,
+  footer {
+    width: auto;
+  }
+
+  /* HEADER */
+
+  /* Tamanho da logo  */
+
+  .header-container img {
+    width: 75%;
+  }
+
+  /* Disposição do menu */
+
+  ul.menu {
+    display: block;
+    border-radius: 5px 0 0 5px;
+    padding: 5px;
+    right: 0px;
+    text-align: center;
+  }
+
+  ul.menu li {
+    margin-bottom: 10px;
+  }
+
+  /* BANNER */
+
+  /* Mensagem do banner */
+  div.banner-content h2 {
+    font-size: 1.5em;
+  }
+
+  /* BENEFÍCIOS */
+
+  /* Quebra de linha na lista de benefícios */
+
+  .lista-beneficios {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  /* ABA CONTATO */
+
+  /* Formulário */
+
+  .input-padrao,
+  .form-container textarea {
+    width: 70%;
+  }
+
+  /* Tabela de funcionamento */
+
+  table.funcionamento {
+    position: static;
+    display: block;
+    width: 100%;
+  }
+}
