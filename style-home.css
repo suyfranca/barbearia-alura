@@ -1,0 +1,160 @@
+body {
+  background: #fff;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+}
+
+.banner-img {
+  display: flex;
+  background: url('img/barber1.jpg') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  align-items: center;
+}
+
+.container-principal {
+  display: flex;
+  margin: 0 auto;
+  width: 940px;
+  position: relative;
+}
+
+.banner-content {
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 0 30px;
+  text-align: right;
+  position: absolute;
+  right: 10px;
+}
+
+.banner-content p {
+  margin-bottom: 10px;
+}
+
+.banner-content a {
+  background-color: #c8863c;
+  border: none;
+  border-radius: 5px;
+  color: inherit;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.banner-content a:hover {
+  background-color: #e6a65e;
+}
+
+.spacer {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.container {
+  color: #000;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.main-content {
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.subtitle {
+  color: #c8863c;
+  font-size: 36px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.utensilios {
+  border-radius: 3px;
+  width: 150px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.missao {
+  background-color: #c8873cd5;
+  border-radius: 6px;
+  color: #fff;
+  clear: left;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  margin: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.imagembeneficios {
+  display: flex;
+  background: url('img/beneficios.jpg') no-repeat center;
+  background-position-y: top;
+  background-size: cover;
+  border-radius: 3px;
+  height: 300px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.beneficios {
+  background-color: #fff;
+  color: #000;
+  padding: 20px 0;
+}
+
+.lista-beneficios {
+  display: flex;
+  padding: 10px;
+}
+
+.lista-beneficios li {
+  background-color: #fff89a;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+  height: 200px;
+  margin: 10px 0;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  width: 150px;
+  position: relative;
+}
+
+.lista-beneficios li:hover {
+  background-color: #c8873cd5;
+}
+
+.lista-beneficios li + li {
+  margin-left: 20px;
+}
+
+.itens {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.mapa {
+  display: flex;
+  margin: 0 auto;
+  max-width: 940px;
+  position: relative;
+}
+
+.mapa-content {
+  display: block;
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.mapa p {
+  margin: 0 0 2em;
+  text-align: center;
+}

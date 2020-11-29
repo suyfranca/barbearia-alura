@@ -1,0 +1,222 @@
+/* CSS do Menu */
+
+header {
+  background-color: transparent;
+  border-top: 5px solid #c8863c;
+  padding: 15px;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+}
+
+.header-container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 940px;
+  position: relative;
+}
+
+.menu {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.568);
+  border-radius: 5px;
+  flex-wrap: wrap;
+  padding: 25px;
+  position: absolute;
+  right: 10px;
+  bottom: 50%;
+  transform: translateY(50%);
+}
+
+.menu li {
+  padding: 10px;
+}
+
+.menu a {
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease;
+}
+
+.menu a:hover {
+  border-bottom: 4px solid #c8863c;
+  color: #fff;
+}
+
+.main-prod {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* CSS da página de Serviços (produtos) */
+
+.produtos {
+  display: flex;
+  justify-content: center;
+  max-width: 940px;
+}
+
+.produtos li {
+  display: inline-block;
+  background-color: #fff;
+  border: 5px solid #fff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 0 1.5%;
+  padding: 20px 20px;
+  text-align: center;
+  vertical-align: top;
+  width: 33%;
+  transition: border-color 0.1s ease-in;
+}
+
+.produtos li:hover {
+  border-color: #c8863c;
+}
+
+.produtos li:active {
+  border-color: #000;
+}
+
+.produtos li:hover h2 {
+  font-size: 34px;
+}
+
+.produtos h2 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 34px;
+}
+
+.produtos li img {
+  max-width: 180px;
+}
+
+.produto-descricao {
+  font-size: 18px;
+}
+
+.produto-preco {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* CSS do Footer */
+
+footer {
+  margin: 50px;
+  text-align: center;
+  background: url('img/bg.jpg');
+}
+
+footer p {
+  color: #fff;
+  margin-top: 15px;
+}
+
+footer div {
+  padding: 50px;
+}
+
+.background {
+  background-color: #fff;
+  width: 100%;
+  position: relative;
+  top: -350px;
+}
+
+.form-container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label,
+form legend {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+/* CSS da página de Contato */
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.input-padrao:focus {
+  border-color: #c8863c;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+fieldset.field {
+  border: none;
+}
+
+select {
+  font-size: 18px;
+  padding: 10px;
+  width: 40%;
+}
+
+/* Botão enviar */
+
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  background-color: #ff9f20;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 5px 0 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 1s all;
+}
+
+.enviar:hover {
+  background: #ff7b00;
+}
+
+/* CSS da tabela de funcionamento */
+
+.funcionamento {
+  border-radius: 3px;
+  margin: 20px 0 40px;
+  width: 30%;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.funcionamento thead {
+  background: #555555;
+  color: white;
+  font-weight: bold;
+}
+
+.funcionamento td,
+.funcionamento th {
+  border: 1px solid #000000;
+  padding: 8px 15px;
+}
