@@ -30,8 +30,12 @@ body {
 }
 
 .banner-content h2 {
-  margin-bottom: 10px;
-  font-size: 1.25em;
+  font-size: 1.5em;
+}
+
+.banner-content p {
+  font-size: 20px;
+  margin-bottom: 25px;
 }
 
 .banner-content a {
