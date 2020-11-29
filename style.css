@@ -1,11 +1,11 @@
 /* CSS do Menu */
 
 header {
-  background-color: transparent;
+  background: #000;
   border-top: 5px solid #c8863c;
-  padding: 15px;
+  height: 40vh;
   width: 100%;
-  position: absolute;
+  position: relative;
   z-index: 10;
 }
 
@@ -18,9 +18,9 @@ header {
 
 .menu {
   display: flex;
-  background-color: rgba(0, 0, 0, 0.568);
-  border-radius: 5px;
   flex-wrap: wrap;
+  background-color: rgba(80, 80, 80, 0.74);
+  border-radius: 5px;
   padding: 25px;
   position: absolute;
   right: 10px;
@@ -48,23 +48,31 @@ header {
   color: #fff;
 }
 
-.main-prod {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+.menu-active {
+  border-bottom: 4px solid #c8863c;
 }
 
 /* CSS da página de Serviços (produtos) */
 
+.main-prod {
+  width: 100%;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .produtos {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   max-width: 940px;
+  margin: 0 auto;
+  padding: 20px 20px 30px 20px;
+  margin-bottom: 2em;
 }
 
 .produtos li {
-  display: inline-block;
   background-color: #fff;
   border: 5px solid #fff;
   border-radius: 10px;
@@ -73,8 +81,10 @@ header {
   padding: 20px 20px;
   text-align: center;
   vertical-align: top;
-  width: 33%;
+  width: 250px;
   transition: border-color 0.1s ease-in;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4), -3px -3px 5px rgba(0, 0, 0, 0.568);
+  margin: 10px;
 }
 
 .produtos li:hover {
@@ -126,11 +136,12 @@ footer div {
   padding: 50px;
 }
 
+/* CSS da página de Contato */
+
 .background {
   background-color: #fff;
   width: 100%;
   position: relative;
-  top: -350px;
 }
 
 .form-container {
@@ -150,8 +161,6 @@ form legend {
   font-size: 20px;
   margin: 0 0 10px;
 }
-
-/* CSS da página de Contato */
 
 .input-padrao {
   display: block;
@@ -181,8 +190,7 @@ select {
 /* Botão enviar */
 
 .enviar {
-  width: 40%;
-  padding: 15px 0;
+  padding: 15px 25px;
   background-color: #ff9f20;
   color: #fff;
   font-weight: bold;
