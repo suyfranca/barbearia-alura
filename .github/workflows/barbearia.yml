@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  meu_job:
+  on_start:
     runs-on: ubuntu latest
     steps:
       - name: imprime COMEÇOU
